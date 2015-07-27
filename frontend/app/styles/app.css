@@ -1,0 +1,49 @@
+.title {
+  font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.3999996185303px;
+  color: #0099FF;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.align-right-custom {
+  float: right;
+  padding-top: 15px;
+}
+
+.align-left-custom {
+  float: left;
+}
+
+.border {
+  border-bottom: thin solid #33CCFF;
+}
+
+.tracker-container {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.tracker-container h3 {
+  text-align: left;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow:hidden;
+}

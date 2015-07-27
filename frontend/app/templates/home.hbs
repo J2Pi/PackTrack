@@ -1,0 +1,37 @@
+<div class="container title border">
+  <h1 class="align-left-custom">Packtrack</h1>
+  <span class="fa-stack align-right-custom">
+    <a href="http://www.jonathantau.com">
+      {{fa-icon "fa-square-o" stack=2}}
+      {{fa-icon "fa-envelope" stack=1}}
+    </a>
+  </span>
+</div>
+
+<div class="container top-buffer">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 tracker-container">
+    <br>
+      <div class="form-group">
+        <label for="carrier">Carrier:</label>
+        {{view "select" prompt="Select a carrier" content=carriers value=selectedCarrier classNames="form-control"}}
+        <br>
+        <br>
+        <label for="trackingNum">Tracking Number:</label>
+        {{input type="text" value=trackingNum classNames="form-control"}}
+      </div>
+      <div class="text-center">
+        <button {{action "submit"}} class="btn btn-info">track!</button>
+      </div>
+      <div>
+        <h3>About</h3>
+        <p>This is a side project that I decided to work on. I often find myself looking up tracking information for different carriers, and thought that it would be really convenient to create a single landing page where I could lookup tracking information for different carriers. Initially this started out as a python CLI project, but I figured that it would be much more user friendly if I developed this as a web app. Feel free to visit my website by clicking the mail icon on the upper right hand corner.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="text-center footer">
+  <p>2015 © Created by Jonathan Tau.</p>
+</footer>
